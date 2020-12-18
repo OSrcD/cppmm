@@ -1,8 +1,324 @@
+# JVM 前世今生
+
+### JAVA 1.0 代号 Oak（橡树）
+
+#### 1996-01-23 发行
+
+### JAVA 1.1
+
+#### 1997-02-19 发行,主要更新内容：
+
+引入JDBC
+
+添加内部类支持
+
+引入JAVA BEAN
+
+引入RMI
+
+引入反射
+
+### JAVA 1.2 代号 Playground（操场）
+
+#### 1998-12-8 发行，主要更新内容：
+
+引入集合框架
+
+对字符串常量做内存映射
+
+引入JIT（Just In Time）编译器
+
+引入打包文件数字签名
+
+引入控制授权访问系统资源策略工具
+
+引入JFC（Java Foundation Classes），包括Swing1.0，拖放和Java2D类库
+
+引入Java插件
+
+JDBC中引入可滚动结果集，BLOB,CLOB,批量更新和用户自定义类型
+
+Applet中添加声音支持
+
+### JAVA 1.3 代号 Kestrel（红隼）
+
+#### 2000-5-8 发布，主要更新内容：
+
+引入Java Sound API
+
+引入jar文件索引
+
+对Java各方面多了大量优化和增强
+
+Java Platform Debugger Architecture用于 Java 调式的平台。
+
+JAVA 1.4 代号 Merlin（隼）
+
+#### 2004-2-6 发布（首次在 JCP 下发行），主要更新内容：
+
+添加XML处理
+
+添加Java打印服务（Java Print Service API）
+
+引入Logging API
+
+引入Java Web Start
+
+引入JDBC 3.0 API
+
+引入断言
+
+引入Preferences API
+
+引入链式异常处理
+
+支持IPV6
+
+支持正则表达式
+
+引入Image I/O API
+
+NIO，非阻塞的 IO，优化 Java 的 IO 读取。
+
+### JDK 5.0 代号 Tiger（老虎），有重大改动
+
+#### 2004-9-30 发布 主要更新内容：
+
+引入泛型
+
+For-Each循环 增强循环，可使用迭代方式
+
+自动装箱与自动拆箱
+
+引入类型安全的枚举
+
+引入可变参数
+
+添加静态引入
+
+引入注解
+
+引入Instrumentation
+
+提供了 java.util.concurrent 并发包。
+
+### JDK 6 代号 Mustang（野马）
+
+#### 2006-12-11 发布，主要更新内容：
+
+引入了一个支持脚本引擎的新框架（基于 Mozilla Rhino 的 JavaScript 脚本引擎）
+
+UI的增强
+
+对WebService支持的增强（JAX-WS2.0 和 JAXB2.0）
+
+引入JDBC4.0API
+
+引入Java Compiler API
+
+通用的Annotations支持
+
+### JDK 7 代号 Dolphin（海豚）
+
+#### 2011-07-28 发布 这是 sun 被 oracle 收购（2009 年 4 月）后的第一个版本，主要更新内容：
+
+switch语句块中允许以字符串作为分支条件
+
+在创建泛型对象时应用类型推断,比如你之前版本使用泛型类型时这样写 ArrayList<User> userList= new ArrayList<User>();，这个版本只需要这样写 ArrayList<User> userList= new ArrayList<>();，也即是后面一个尖括号内的类型，JVM 帮我们自动类型判断补全了。
+
+在一个语句块中捕获多种异常
+
+添加try-with-resources语法支持，使用文件操作后不用再显示执行close了。
+
+支持动态语言
+
+JSR203, NIO.2,AIO,新I/O文件系统，增加多重文件的支持、文件原始数据和符号链接,支持ZIP文件操作
+
+JDBC规范版本升级为JDBC4.1
+
+引入Fork/Join框架，用于并行执行任务
+
+支持带下划线的数值，如 int a = 100000000;，0 太多不便于人阅读，这个版本支持这样写 int a = 100_000_000，这样就对数值一目了然了。
+
+Swing组件增强（JLayer,Nimbus Look Feel…）参考
+
+### JDK 8
+
+#### 2014-3-19 发布 oracle 原计划 2013 年发布，由于安全性问题两次跳票，是自 JAVA 5 以来最具革命性的版本，主要更新内容：
+
+接口改进，接口居然可以定义默认方法实现和静态方法了。
+
+引入函数式接口
+
+引入Lambda表达式
+
+引入全新的Stream API，提供了对值流进行函数式操作。
+
+引入新的Date-Time API
+
+引入新的JavaScrpit引擎Nashorn
+
+引入Base64类库
+
+引入并发数组（parallel）
+
+添加新的Java工具：jjs、jdeps
+
+JavaFX，一种用在桌面开发领域的技术
+
+静态链接 JNI 程序库
+
+### JDK 9
+
+#### 2017-9-21 发布
+
+模块化（jiqsaw）
+
+交互式命令行（JShell）
+
+默认垃圾回收期切换为G1
+
+进程操作改进
+
+竞争锁性能优化
+
+分段代码缓存
+
+优化字符串占用空间
+
+### JDK 10
+
+#### 2018-3-21 发布
+
+JEP286，var 局部变量类型推断。
+
+JEP296，将原来用 Mercurial 管理的众多 JDK 仓库代码，合并到一个仓库中，简化开发和管理过程。
+
+JEP304，统一的垃圾回收接口。
+
+JEP307，G1 垃圾回收器的并行完整垃圾回收，实现并行性来改善最坏情况下的延迟。
+
+JEP310，应用程序类数据 (AppCDS) 共享，通过跨进程共享通用类元数据来减少内存占用空间，和减少启动时间。
+
+JEP312，ThreadLocal 握手交互。在不进入到全局 JVM 安全点 (Safepoint) 的情况下，对线程执行回调。优化可以只停止单个线程，而不是停全部线程或一个都不停。
+
+JEP313，移除 JDK 中附带的 javah 工具。可以使用 javac -h 代替。
+
+JEP314，使用附加的 Unicode 语言标记扩展。
+
+JEP317，能将堆内存占用分配给用户指定的备用内存设备。
+
+JEP317，使用 Graal 基于 Java 的编译器，可以预先把 Java 代码编译成本地代码来提升效能。
+
+JEP318，在 OpenJDK 中提供一组默认的根证书颁发机构证书。开源目前 Oracle 提供的的 Java SE 的根证书，这样 OpenJDK 对开发人员使用起来更方便。
+
+JEP322，基于时间定义的发布版本，即上述提到的发布周期。版本号为$FEATURE.$INTERIM.$UPDATE.$PATCH，分别是大版本，中间版本，升级包和补丁版本。
+
+### JDK  11
+
+#### 2018-9-25 发布
+
+官网公开的 17 个 JEP（JDK Enhancement Proposal 特性增强提议）
+
+JEP181: Nest-Based Access Control（基于嵌套的访问控制）
+
+JEP309: Dynamic Class-File Constants（动态的类文件常量）
+
+JEP315: Improve Aarch64 Intrinsics（改进 Aarch64 Intrinsics）
+
+JEP318: Epsilon: A No-Op Garbage Collector（Epsilon 垃圾回收器，又被称为”No-Op（无操作）”回收器）
+
+JEP320: Remove the Java EE and CORBA Modules（移除 Java EE 和 CORBA 模块，JavaFX 也已被移除）
+
+JEP321: HTTP Client (Standard)
+
+JEP323: Local-Variable Syntax for Lambda Parameters（用于 Lambda 参数的局部变量语法）
+
+JEP324: Key Agreement with Curve25519 and Curve448（采用 Curve25519 和 Curve448 算法实现的密钥协议）
+
+JEP327: Unicode 10
+
+JEP328: Flight Recorder（飞行记录仪）
+
+JEP329: ChaCha20 and Poly1305 Cryptographic Algorithms（实现 ChaCha20 和 Poly1305 加密算法）
+
+JEP330: Launch Single-File Source-Code Programs（启动单个 Java 源代码文件的程序）
+
+JEP331: Low-Overhead Heap Profiling（低开销的堆分配采样方法）
+
+JEP332: Transport Layer Security (TLS) 1.3（对 TLS 1.3 的支持）
+
+JEP333: ZGC: A Scalable Low-Latency Garbage Collector (Experimental)（ZGC：可伸缩的低延迟垃圾回收器，处于实验性阶段）
+
+JEP335: Deprecate the Nashorn JavaScript Engine（弃用 Nashorn JavaScript 引擎）
+
+JEP336: Deprecate the Pack200 Tools and API（弃用 Pack200 工具及其 API）
+
+### JDK 12
+
+#### 2019-3-19 发布
+
+JEP189:Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)
+
+JEP230:Microbenchmark Suite
+
+JEP325:Switch Expressions (Preview)
+
+JEP334:JVM Constants API
+
+JEP340:One AArch64 Port, Not Two
+
+JEP341:Default CDS Archives
+
+JEP344:Abortable Mixed Collections for G1
+
+JEP346:Promptly Return Unused Committed Memory from G1
+
+### JDK 13
+
+#### 2019-9-17 发布
+
+JEP350:Dynamic CDS Archives
+
+JEP351:ZGC: Uncommit Unused Memory
+
+JEP353:Reimplement the Legacy Socket API
+
+JEP354:Switch Expressions
+
+JEP355:Text Blocks
+
+### JDK 14
+
+#### 预计 2020-03-17 General Availability
+
+JEP 305: Pattern Matching for instanceof (Preview)
+
+JEP 358: Helpful NullPointerExceptions
+
+JEP 361: Switch Expressions (Standard)
+
+JEP 345: NUMA-Aware Memory Allocation for G1
+
+JEP 349: JFR Event Streaming
+
+JEP 366: Deprecate the ParallelScavenge + SerialOld GC Combination
+
+JEP 363: Remove the CMS Garbage Collector
+
+JEP 364: ZGC on macOS
+
+JEP 368: Text Blocks (Second Preview)
+
 # 参考文献
 
-## JVM篇
+## 追溯技术历史
 
-### Java的JNI篇书籍大全
+### [维基百科](https://en.wikipedia.org/wiki/Main_Page)
+
+## JVM 篇
+
+### Java 的 JNI 篇书籍大全
 
 Essential Jni: Java Native Interface 出版年: 1998-3
 
@@ -22,7 +338,7 @@ JNA（JNI的框架）
 
 JNR（JNI的框架）
 
-### 安卓NDK篇书籍大全
+### 安卓 NDK 篇书籍大全
 
 细说Android 4.0 NDK编程（推荐PC阅读） 出版时间：2012-07-01
 
@@ -34,7 +350,7 @@ Android NDK: Beginner's Guide - Second Edition 出版时间：2015-04-28
 
 Mastering Android NDK 出版时间：2015-09-30
 
-### Java虚拟机书籍大全
+### Java 虚拟机书籍大全
 
 Java 虚拟机规范 出版年: 1996-12-01
 
@@ -134,9 +450,9 @@ Java Language and Virtual Machine Specifications
 
 OpenJDK JVM 1.6
 
-jvms8
+jvms 8
 
-### 第三方Java虚拟机
+### 第三方 Java 虚拟机
 
 Harmony虚拟机 JVM 1.5
 
@@ -170,7 +486,7 @@ Dalvik 页数: 80
 
 Dalvik Turbo Virtual Machine: Lite Edition
 
-## C&C++篇
+## C&C++ 篇
 
 滴水逆向
 
@@ -612,7 +928,7 @@ Boost程序库完全开发指南：深入C++“准”标准库（第5版） 出�
 
 C++新经典 出版时间：2020-07-01
 
-## Linux篇
+## Linux 篇
 
 Debug Hacks中文版 出版年: 2011-8
 
