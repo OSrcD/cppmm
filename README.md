@@ -1,3 +1,21 @@
+# cppmm
+
+cppmm 是 C++-- 其实 Java 就是C++的简化版 在C++的基础上进行简化 所以就是 C++--
+
+## 编程健康指南
+
+## 科学上网指南
+
+### V2RayX
+
+## 社会工程学
+
+### Google Hacking
+
+## 追溯技术历史
+
+### [维基百科](https://en.wikipedia.org/wiki/Main_Page)
+
 ## JVM 前世今生
 
 ### JAVA 1.0 代号 Oak（橡树）
@@ -311,10 +329,6 @@ JEP 364: ZGC on macOS
 JEP 368: Text Blocks (Second Preview)
 
 ## 参考文献
-
-### 追溯技术历史
-
-#### [维基百科](https://en.wikipedia.org/wiki/Main_Page)
 
 ### JVM&C&C++&Linux 强强联合
 
