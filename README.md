@@ -1,8 +1,8 @@
 ### 参考文献
 
-### JVM篇
+#### JVM篇
 
-### Java的JNI篇书籍大全
+##### Java的JNI篇书籍大全
 
 Essential Jni: Java Native Interface 出版年: 1998-3
 
@@ -144,6 +144,8 @@ IBM虚拟机
 Alibaba dragonwell8 虚拟机 JVM 1.8
 
 华为 bishengjdk-8 虚拟机 JVM 1.8
+
+......
 
 ### 安卓虚拟机书籍大全
 
