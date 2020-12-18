@@ -169,7 +169,7 @@ Dalvik 页数: 80
 
 Dalvik Turbo Virtual Machine: Lite Edition
 
-### C++篇
+## C&C++篇
 
 滴水逆向
 
@@ -611,7 +611,7 @@ Boost程序库完全开发指南：深入C++“准”标准库（第5版） 出�
 
 C++新经典 出版时间：2020-07-01
 
-### Linux篇
+## Linux篇
 
 Debug Hacks中文版 出版年: 2011-8
 
