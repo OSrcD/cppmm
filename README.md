@@ -1,22 +1,42 @@
 # cppmm
 
-cppmm 是 C++-- 其实 Java 就是C++的简化版 在C++的基础上进行简化 所以就是 C++--
+
+
+cppmm 是 C++-- 其实 Java 就是 C++ 的简化版 在 C++ 的基础上进行简化 所以就是 C++--
+
+
 
 ## 编程健康指南
 
-## 科学上网指南
+
+
+## 科学上网指南
+
+
 
 ### V2RayX
 
+
+
 ## 社会工程学
+
+
 
 ### Google Hacking
 
+
+
 ## 追溯技术历史
+
+
 
 ### [维基百科](https://en.wikipedia.org/wiki/Main_Page)
 
+
+
 ## JVM 前世今生
+
+
 
 ### JAVA 1.0 代号 Oak（橡树）
 
@@ -338,169 +358,342 @@ JEP 368: Text Blocks (Second Preview)
 
 Essential Jni: Java Native Interface 出版年: 1998-3
 
+
+
 Java(TM) Native Interface 出版年: 1999-06-20
+
+
 
 Professional Java Native Interfaces with SWT/JFace (Programmer to Programmer) 出版年: 2005-02-11
 
+
+
 Java AWT Native Interface 页数: 18
+
+
 
 Java Native Interface 页数: 112
 
+
+
 Java Native Access 页数: 112
+
+
+
+IBM JNI
+
+
 
 JNI
 
+
+
 JNA（JNI的框架）
 
+
+
 JNR（JNI的框架）
+
+
 
 #### 安卓 NDK 篇书籍大全
 
 细说Android 4.0 NDK编程（推荐PC阅读） 出版时间：2012-07-01
 
+
+
 Android NDK Game Development Cookbook 出版时间：2013-11-25
+
+
 
 Android C++高级编程：使用NDK [Pro Android C++ with the NDK] 出版时间：2014-01-01
 
+
+
 Android NDK: Beginner's Guide - Second Edition 出版时间：2015-04-28
 
+
+
 Mastering Android NDK 出版时间：2015-09-30
+
+
 
 #### Java 虚拟机书籍大全
 
 Java 虚拟机规范 出版年: 1996-12-01
 
+
+
 Java Virtual Machine (Java Series) 出版年: 1997-04-01
+
+
 
 Java虚拟机规范 出版年: 1997-10
 
+
+
 The Java™ Virtual Machine Specification 出版年: 1999-4-24
+
+
 
 Programming for the Java™ Virtual Machine 出版年: 1999-7-2
 
-Proceedings of the Java Virtual Machine Research and Technology Symposium (JVM '01) April 23-24, 2001 Monterey, California USA 出版时间：2001-1-1
+
+
+Proceedings of the Java Virtual Machine Research and Technology Symposium (JVM'01) 
+
+
+
+April 23-24, 2001 Monterey, California USA 出版时间：2001-1-1
+
+
 
 Java and the Java Virtual Machine 出版年: 2001-6-27
 
+
+
 2nd Java Virtual Machine Reasearch and Technology Symposium (JVM '02) 出版年: 2002
+
+
 
 深入嵌入式Java虚拟机 出版年: 2003-5-1
 
+
+
 嵌入式Java虚拟机及其应用研究
+
+
 
 深入Java虚拟机(原书第2版) 出版年: 2003-9
 
+
+
 A Real-Time Java Virtual Machine for Avionics (Preprint)  出版时间：2006-1-1
+
+
 
 IBM Technology for Java Virtual Machine in IBM i5/OS 出版时间：2007-2-14
 
+
+
 Java Virtual Machine 出版年: 2009-12-30
+
+
 
 Principles of Computer Organization and Assembly Language (2-downloads): Using the Java Virtual Machine Kindle电子书 出版时间：2011年1月11日
 
+
+
 Java Virtual Machine 出版年: 2011-9
+
+
 
 Kaffe Real-Time JVM (英语) 出版时间：2013-3-22
 
+
+
 Understanding Java Virtual Machine 出版年: 2013-3-31
+
+
 
 Java虚拟机并发编程 出版时间：2013-05-01
 
+
+
 解析Java虚拟机开发 出版年: 2013-5-1
+
+
 
 Java虚拟机规范（Java SE 7版） [The Java Virtual Machine Specification] 出版时间：2013-12-01
 
+
+
 HotSpot实战 出版时间：2014-03-01
+
+
 
 Java虚拟机精讲 出版时间：2015-05-01
 
-Java核心技术系列：Java虚拟机规范（Java SE 8版） [The Java Virtual Machine Specification Jave SE 8 Edition] 出版时间：2015-06-01
+
+
+Java核心技术系列：Java虚拟机规范（Java SE 8版） [The Java Virtual Machine 
+
+
+
+Specification Jave SE 8 Edition] 出版时间：2015-06-01
+
+
 
 OpenJDK Cookbook 出版时间：2015-01-30
 
+
+
 自己动手写Java虚拟机 出版时间：2016-06-01
+
+
 
 深入理解JVM ＆ G1 GC 出版时间：2017-06-01
 
+
+
 揭秘Java虚拟机：JVM设计原理与实现 出版时间：2017-06-01
 
-Java虚拟机基础教程 出版时间：2018-02-01
+
+
+ Java虚拟机基础教程 出版时间：2018-02-01
+
+
 
 Optimizing Java: Practical Techniques for Improving JVM Application Performance (英语)  出版时间：2018-5-11
 
+
+
 Java virtual machine Second Edition Kindle电子书 出版时间：2018-6-10
+
+
 
 JVM Tutorials - Herong's Tutorial Examples Kindle电子书 出版时间：2018-6-29
 
+
+
 JRockit权威指南 深入理解JVM 出版时间：2019-01-01
+
+
 
 JVM G1源码分析和调优 出版时间：2019-04-01
 
+
+
 实战Java虚拟机：JVM故障诊断与性能优化（第2版） 出版时间：2019-07-01
+
+
 
 深入理解Java虚拟机：JVM高级特性与最佳实践（第3版） 出版时间：2019-12-01
 
+
+
 虚拟机设计与实现 以JVM为例 出版时间：2020-01-01
+
+
 
 深入浅出：Java虚拟机设计与实现 出版时间：2020-04-01
 
+
+
 深入理解JVM字节码 出版时间：2020-06-01
+
 
 Microsoft Java Virtual Machine 页数: 88 JVM 1.1 闭源
 
+
+
 A Dynamic Compiler for an Embedded Java Virtual Machine 页数: 96
+
+
 
 Serializable Coroutines for Java Virtual Machines 页数: 104
 
+
+
 Java Virtual Machine, Including 页数: 106
+
+
 
 Openjdk 页数: 112
 
+
+
 Hotspot 页数: 136
+
+
 
 Java Virtual Machine Design for Embedded Systems 页数: 152
 
+
+
 Java Virtual Machines 页数: 280
+
+
 
 Java Language and Virtual Machine Specifications
 
+
+
 OpenJDK JVM 1.6
 
-jvms 8
+
+
+jvms8
+
 
 #### 第三方 Java 虚拟机
+
+https://github.com/mateusbraga/JVM-1.2 JVM 1.2
+
+DS虚拟机 JVM 1.2
+
+ClassPath虚拟机 JVM 1.2 1.3 1.4 1.5
+
+SableVM 虚拟机 JVM 1.2
 
 Harmony虚拟机 JVM 1.5
 
 IBM虚拟机
 
+The Kaffe Virtual Machine 虚拟机
+
 Alibaba dragonwell8 虚拟机 JVM 1.8
 
 华为 bishengjdk-8 虚拟机 JVM 1.8
 
-......
+https://github.com/zhangkari/jvm 
+
+https://github.com/kayodesu/cabin
+
+SAP JVM虚拟机
+
+avian 虚拟机
 
 #### 安卓虚拟机书籍大全
 
 Android Virtual Machine (VM) Setup on Linux 出版时间：2014-01-01
 
+
+
 深入解析Android虚拟机 出版时间：2014-01-01
+
+
 
 Android Dalvik虚拟机结构及机制剖析：第1卷 Dalvik虚拟机结构剖析 出版时间：2014-11-01
 
+
+
 Android Dalvik虚拟机结构及机制剖析：第2卷（Dalvik虚拟机各模块机制分析） 出版时间：2014-08-01
+
+
 
 深入解析Android虚拟机 出版时间：2016-09-01
 
+
+
 Programming for the Android Dalvik Virtual Machine 出版时间：2017年1月15日
+
+
 
 深入理解Android：Java虚拟机ART [Understanding Android Internals: ART JVM] 出版时间：2019-04-01
 
+
+
 Dalvik Turbo Virtual Machine 页数: 18
+
+
 
 Dalvik 页数: 80
 
+
+
 Dalvik Turbo Virtual Machine: Lite Edition
+
 
 ### C&C++ 篇
 
@@ -1116,4 +1309,4 @@ Linux内核观测技术BPF [Linux Observability with BPF] 出版时间：2020-08
 
 Linux Kernel Development Cookbook 出版时间：2021-01
 
-深度探索Linux系统虚拟化：原理与实现 出版时间：2020-11-01
+ 深度探索Linux系统虚拟化：原理与实现 出版时间：2020-11-01
